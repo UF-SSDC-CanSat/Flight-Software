@@ -10,7 +10,7 @@
 *Creates the struct for calling to either transmit or receive
 *When rx or tx is NULL, the backend clocks out padding bytes. And for rx NULL: the incoming bytes are discarded.
 *One length covers both buffers since SPI moves one bit out and one bit in per clock tick!
-*CS is handled in the backend by ESP-IDF we only have to worry about pinning it.
+*CS is handled in the backend by ESP-IDF.
 *Blocking takes place, when the call returns, the transfer is complete and rx is filled.
 
 */

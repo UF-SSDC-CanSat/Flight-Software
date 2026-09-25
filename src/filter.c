@@ -1,6 +1,7 @@
 
 #include "../inc/filter.h"
-#include "math.h"
+#include <stdbool.h>
+#include <math.h>
 
 bool plausibility_filter(const FilterInfo* const sensor_changes, int* rejections, const int max_rejections)
 {

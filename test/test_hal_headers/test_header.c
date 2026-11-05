@@ -4,6 +4,7 @@
 #include "hal_i2c.h"
 #include "hal_gpio.h"
 #include "hal_clock.h"
+#include "bmm350.h"
 
 void setUp(void)    { }
 void tearDown(void) { }
